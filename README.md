@@ -62,10 +62,10 @@ This project helps reinforce understanding of JavaScript concepts including vari
 ## Screenshots
 
 ### Question View
-![Question View](/public/Screenshot%20(6).png)
+![Question View](/public/Screenshot%20(5).png)
 
 ### Answer View
-![Answer View](/public/Screenshot%20(5).png)
+![Answer View](/public/Screenshot%20(6).png)
 
 ## License
 
