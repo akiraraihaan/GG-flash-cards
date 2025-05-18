@@ -59,6 +59,14 @@ This project helps reinforce understanding of JavaScript concepts including vari
 - User authentication
 - Custom card decks
 
+## Screenshots
+
+### Question View
+![Question View](/public/Screenshot%20(6).png)
+
+### Answer View
+![Answer View](/public/Screenshot%20(5).png)
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
