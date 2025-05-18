@@ -1,6 +1,6 @@
 export default function Navigation({ onPrevious, onNext, showAnswer, onToggle, isFirstCard, isLastCard }) {
   return (
-    <div className="border-4 border-gray-400 p-1 mt-2 rounded-lg">
+    <div className="border-3 border-gray-400 p-1 mt-2 rounded-xl">
       <div className="flex justify-between rounded-lg bg-gray-200">
         {/* Previous button */}
         <button 

@@ -4,7 +4,7 @@ export default function ProgressBar({ progress, currentCard, totalCards }) {
   return (
     <div className="mb-2 w-full">
       {/* Progress bar with percentage inside */}
-      <div className="w-full border-4 border-gray-400 p-1 rounded-xl h-10 relative">
+      <div className="w-full border-3 border-gray-400 p-1 rounded-xl h-10 relative">
         {/* Progress indicator */}
         <div 
           className="bg-gray-600 h-full rounded-md transition-all duration-300 ease-in-out flex items-center"
