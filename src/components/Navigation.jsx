@@ -13,7 +13,7 @@ export default function Navigation({ onPrevious, onNext, showAnswer, onToggle, i
       {/* Toggle answer button */}
       <button 
         onClick={onToggle}
-        className="px-6 py-2 font-medium"
+        className="px-6 py-2 font-medium cursor-pointer"
       >
         {showAnswer ? 'Hide Answer' : 'Show Answer'}
       </button>

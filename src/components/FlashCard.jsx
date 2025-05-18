@@ -1,15 +1,13 @@
 export default function FlashCard({ card, showAnswer, onToggle }) {
   return (
-    <div 
-      className="bg-gray-100 rounded-lg p-8 min-h-[250px] flex items-center justify-center text-center cursor-pointer shadow-md hover:shadow-lg transition-shadow duration-300"
-      onClick={onToggle}
-    >
-      <div className="text-xl font-medium">
-        {showAnswer ? (
-          <p>{card.answer}</p>
-        ) : (
-          <p>What is the<br />difference between<br />var, let, and const?</p>
-        )}
+    <div className="border-2 border-gray-600 p-1 rounded-xl">
+      <div 
+        className="bg-gray-100 rounded-xl p-8 min-h-[250px] flex items-center justify-center text-center cursor-pointer"
+        onClick={onToggle}
+      >
+        <div className="text-xl font-medium">
+          {showAnswer ? card.answer : card.question}
+        </div>
       </div>
     </div>
   );
