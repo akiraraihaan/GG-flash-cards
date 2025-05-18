@@ -17,8 +17,8 @@ function App() {
 
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-center p-4">
-      <div className="w-full max-w-lg border border-gray-200 rounded-lg p-6 shadow-sm">
-        <h1 className="text-2xl font-bold mb-4">Flash Cards</h1>
+      <div className="w-full max-w-lg border-4 border-gray-400 rounded-xl p-2">
+        <h1 className="text-2xl font-bold mb-2">Flash Cards</h1>
         
         <ProgressBar 
           progress={progress} 
